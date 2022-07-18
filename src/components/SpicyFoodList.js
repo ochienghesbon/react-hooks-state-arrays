@@ -14,7 +14,6 @@ function SpicyFoodList() {
       {food.name} | Heat: {food.heatLevel} | Cuisine: {food.cuisine}
     </li>
   ));
-
   return (
     <div>
       <button onClick={handleAddFood}>Add New Food</button>
